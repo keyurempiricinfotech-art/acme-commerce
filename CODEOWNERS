@@ -1,0 +1,18 @@
+# DB performance seed ownership
+/src/inventory/ @orders-team
+/src/orders/ @orders-team
+/src/payments/ @payments-team
+/src/auth/ @auth-team
+/src/catalog/ @search-team
+/src/admin/ @platform-team
+/src/graphql/ @platform-team
+/routes/ @platform-team
+/workers/reports/ @platform-team
+/workers/sync/ @platform-team
+/functions/recalc-cart/ @orders-team
+/web-storefront/app/checkout/ @orders-team @payments-team
+/web-storefront/app/login/ @auth-team
+/web-storefront/app/search/ @search-team
+/web-storefront/app/cart/ @orders-team
+/web-storefront/app/account/orders/ @orders-team
+/admin-panel/ @platform-team
