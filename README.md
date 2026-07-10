@@ -4,7 +4,7 @@ Laravel 11 (PHP 8.3) backend for Acme Commerce storefront workflows. The codebas
 
 ## Workflow seed
 
-This `develop` branch is the clean source-code fixture for the **model-B-purple-EHI** backend-blueprint run. The repository package identity is `acme-commerce/storefront-api`.
+This `develop` branch is the clean source-code fixture for the **model-C-cyan-EHI** backend-blueprint run. The repository package identity is `acme-commerce/storefront-api`.
 
 The existing backend includes Users, Products, Categories, Orders, OrderItems, Cart, CartItems, and Addresses with Eloquent relationships. The Product Reviews & Ratings feature is intentionally not implemented: there is no Review model, review controller, review policy, `reviews` or `review_votes` migration, and no `rating_avg` or `rating_count` product columns. Those changes belong in the blueprint produced from the selected Jira story; they must not be present in this source fixture.
 
